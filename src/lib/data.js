@@ -1,10 +1,10 @@
 // Mock users data
 import Logo from "../../public/Services.jpg";
 export const users = [
-  { id: "1", name: "John Doe", role: "employee" },
-  { id: "2", name: "Jane Smith", role: "employee" },
-  { id: "3", name: "Alice Johnson", role: "receptionist" },
-  { id: "4", name: "Bob Brown", role: "facilities" },
+  { id: "1", name: "Carlos Lasala", role: "employee" },
+  { id: "2", name: "Alfonso Angulo", role: "employee" },
+  { id: "3", name: "Henry Portilla", role: "receptionist" },
+  { id: "4", name: "Alejandro Mosqueda Paz", role: "facilities" },
 ];
 
 // Mock reports data
@@ -12,7 +12,7 @@ export const reports = [
   {
     id: "1",
     employeeId: "1",
-    employeeName: "John Doe",
+    employeeName: "Carlos Lasala",
     description: "Broken air conditioner in meeting room A",
     status: "pending",
     createdAt: "2025-03-10T10:30:00Z",
@@ -21,7 +21,7 @@ export const reports = [
   {
     id: "2",
     employeeId: "2",
-    employeeName: "Jane Smith",
+    employeeName: "Alfonso Angulo",
     description: "Flickering lights in the hallway",
     status: "received",
     createdAt: "2025-03-09T14:15:00Z",
@@ -30,7 +30,7 @@ export const reports = [
   {
     id: "3",
     employeeId: "1",
-    employeeName: "John Doe",
+    employeeName: "Carlos Lasala",
     description: "Water leak in the kitchen",
     status: "resolved",
     createdAt: "2025-03-08T09:45:00Z",
